@@ -2,6 +2,8 @@
 import pickle
 import os
 from pytrie import StringTrie as Trie
+import sys
+sys.setrecursionlimit(100000)
 
 TRIE_URLS_DATA_STRUCT_PATH = './trie_urls.pkl'
 
