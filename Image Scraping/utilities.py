@@ -101,13 +101,13 @@ class ImageUrls:
 #         file_output.write('\n')
 #     del i
 
-# # Shift all the URLs in the text file to the data structure
-# if __name__ == "__main__":
-#     FILE_NAME = "./trie_urls.txt"
-#     i = ImageUrls()
-#     with open(FILE_NAME, "r") as file_input:
-#         while True:
-#             url = file_input.readline().replace("\n", "")
-#             if url == "": break
-#             i.add(url)
-#     del i
+# Shift all the URLs in the text file to the data structure
+if __name__ == "__main__":
+    FILE_NAME = "./trie_urls.txt"
+    i = ImageUrls()
+    with open(FILE_NAME, "r") as file_input:
+        while True:
+            url = file_input.readline().replace("\n", "")
+            if url == "": break
+            i.add(url)
+    del i
