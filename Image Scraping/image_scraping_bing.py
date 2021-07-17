@@ -47,7 +47,7 @@ try:
 except Exception as e:
     print(e)
 
-# Quit the driver, delete img_url, destroy all opencv windows and save the visited urls
+# Quit the driver, delete img_url and save the visited urls
 del img_url
 driver.quit()
 with open(OUTPUT_PATH, "wb") as file_output:
