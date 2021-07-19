@@ -91,15 +91,15 @@ class ImageUrls:
 #     print(i.len, i.category)
 #     del i
 
-# Shift all the URLs in the data structure to a text file
-if __name__ == "__main__":
-    FILE_NAME = "./trie_urls.txt"
-    i = ImageUrls()
-    with open(FILE_NAME, "w") as file_output:
-        for url in i.fetch_all_urls():
-            file_output.write(url + '\n')
-        file_output.write('\n')
-    del i
+# # Shift all the URLs in the data structure to a text file
+# if __name__ == "__main__":
+#     FILE_NAME = "./trie_urls.txt"
+#     i = ImageUrls()
+#     with open(FILE_NAME, "w") as file_output:
+#         for url in i.fetch_all_urls():
+#             file_output.write(url + '\n')
+#         file_output.write('\n')
+#     del i
 
 # # Shift all the URLs in the text file to the data structure
 # if __name__ == "__main__":
