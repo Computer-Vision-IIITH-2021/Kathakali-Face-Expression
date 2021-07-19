@@ -85,11 +85,11 @@ class ImageUrls:
 #     print(i.fetch_all_urls())
 #     del i # this is necessary. Else there will be run time error.
 
-# # Fetch the number of URLs stored in the data structure
-# if __name__ == "__main__":
-#     i = ImageUrls()
-#     print(i.len, i.category)
-#     del i
+# Fetch the number of URLs stored in the data structure
+if __name__ == "__main__":
+    i = ImageUrls()
+    print(i.len, i.category)
+    del i
 
 # # Shift all the URLs in the data structure to a text file
 # if __name__ == "__main__":
