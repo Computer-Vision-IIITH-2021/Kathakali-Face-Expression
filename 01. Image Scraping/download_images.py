@@ -19,7 +19,7 @@ img_url = ImageUrls(category='url')
 img_down_url = ImageUrls(category='download')
 
 # Download each image
-i = len(glob.glob("*.jpg")) + 1
+i = len(glob.glob(DOWNLOAD_PATH + "*.jpg")) + 1
 for url in tqdm.tqdm(img_url.fetch_all_urls()):
     if not img_down_url.contains(url):
         try:
